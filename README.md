@@ -1,6 +1,6 @@
 # WKJSON
 WKJSON is a macOS framework where you can inject a JSON file or string into WKWebview
-You can create an ad blocker using this framework and more
+With this framework, you can create a content blocker for WKWebview
 # How to use
 ### Add this code somewhere in the viewDidLoad
 
