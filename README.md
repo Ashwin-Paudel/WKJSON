@@ -22,5 +22,5 @@ JSONString(JSONString: String, webView: WKWebView)
 // Load a JSON String
 ```
 # Contributing
-## Developed by Ashwin Paudel
+## Developed by Ashwin Paudel (Searche Developer)
 If you would like to help me in developing a cocoa web browser using WKWebview, contact me ashwinpdl123@gmail.com
