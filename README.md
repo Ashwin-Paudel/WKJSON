@@ -13,6 +13,4 @@ or
 JSONString(JSONString: String, webView: WKWebView)
 ```
 
-# License
-
-### This is under MIT license
+## Developed by Ashwin Paudel
