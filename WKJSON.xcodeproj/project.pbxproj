@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CFE82E5224D058CA005C7874 /* Injecter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE82E5124D058CA005C7874 /* Injecter.swift */; };
 		CFE8D64324CB3187004A5254 /* WKJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE8D63924CB3187004A5254 /* WKJSON.framework */; };
 		CFE8D64824CB3187004A5254 /* WKJSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8D64724CB3187004A5254 /* WKJSONTests.swift */; };
 		CFE8D64A24CB3187004A5254 /* WKJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = CFE8D63C24CB3187004A5254 /* WKJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -23,6 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CFE82E5124D058CA005C7874 /* Injecter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Injecter.swift; sourceTree = "<group>"; };
 		CFE8D63924CB3187004A5254 /* WKJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WKJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFE8D63C24CB3187004A5254 /* WKJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKJSON.h; sourceTree = "<group>"; };
 		CFE8D63D24CB3187004A5254 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				CFE8D63C24CB3187004A5254 /* WKJSON.h */,
+				CFE82E5124D058CA005C7874 /* Injecter.swift */,
 				CFE8D63D24CB3187004A5254 /* Info.plist */,
 			);
 			path = WKJSON;
@@ -147,6 +150,7 @@
 				TargetAttributes = {
 					CFE8D63824CB3187004A5254 = {
 						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1200;
 					};
 					CFE8D64124CB3187004A5254 = {
 						CreatedOnToolsVersion = 12.0;
@@ -194,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFE82E5224D058CA005C7874 /* Injecter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +345,7 @@
 		CFE8D64E24CB3187004A5254 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -357,6 +363,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ashwin.WKJSON;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -364,6 +371,7 @@
 		CFE8D64F24CB3187004A5254 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -388,6 +396,7 @@
 		CFE8D65124CB3187004A5254 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = CKUP7H8DC7;
@@ -406,6 +415,7 @@
 		CFE8D65224CB3187004A5254 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = CKUP7H8DC7;
