@@ -12,13 +12,13 @@ This is a really helpful framework for people who are developing a web browser
 ### Add this code somewhere in the viewDidLoad
 
 ```Swift
-JSONFile(filePath: String, webView: WKWebView)
+webView.JSONFile(filePath: String, webView: WKWebView)
 // Load a JSON file
 ```
 
 or 
 ```Swift
-JSONString(JSONString: String, webView: WKWebView)
+webView.JSONString(JSONString: String, webView: WKWebView)
 // Load a JSON String
 ```
 # Contributing
